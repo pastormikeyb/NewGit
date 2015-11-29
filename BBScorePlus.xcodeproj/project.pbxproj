@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0D652F1BE98C9800A9397C /* LineUpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D652E1BE98C9700A9397C /* LineUpTableViewCell.m */; };
+		4C32545C1BF8EDEF00C3938D /* GameStatsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3254591BF8EDEF00C3938D /* GameStatsTableViewCell.m */; };
+		4C32545D1BF8EDEF00C3938D /* GameStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32545B1BF8EDEF00C3938D /* GameStatsViewController.m */; };
+		4C3254601BF8EDFD00C3938D /* RulesSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32545F1BF8EDFD00C3938D /* RulesSetupViewController.m */; };
+		4C3254631BF90DDA00C3938D /* PitchChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3254621BF90DDA00C3938D /* PitchChartViewController.m */; };
+		4C6E3B161BCB41640017DF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E3B151BCB41640017DF76 /* main.m */; };
+		4C6E3B191BCB41640017DF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E3B181BCB41640017DF76 /* AppDelegate.m */; };
+		4C6E3B1C1BCB41640017DF76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E3B1B1BCB41640017DF76 /* ViewController.m */; };
+		4C6E3B1F1BCB41640017DF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E3B1D1BCB41640017DF76 /* Main.storyboard */; };
+		4C6E3B211BCB41640017DF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E3B201BCB41640017DF76 /* Assets.xcassets */; };
+		4C6E3B241BCB41640017DF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E3B221BCB41640017DF76 /* LaunchScreen.storyboard */; };
+		4C6E3B2F1BCB41640017DF76 /* BBScorePlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E3B2E1BCB41640017DF76 /* BBScorePlusTests.m */; };
+		4C6E3B3A1BCB41640017DF76 /* BBScorePlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E3B391BCB41640017DF76 /* BBScorePlusUITests.m */; };
+		4C6E3B481BCB43200017DF76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6E3B471BCB43200017DF76 /* MapKit.framework */; };
+		4C8AF0A11BEAD63300C77997 /* OpponentRosterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8AF0A01BEAD63300C77997 /* OpponentRosterTableViewCell.m */; };
+		4C8AF0A41BEAD65500C77997 /* OpponentLineupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8AF0A31BEAD65500C77997 /* OpponentLineupTableViewCell.m */; };
+		4C9A81671BD087B200F85F0B /* GameSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A81661BD087B200F85F0B /* GameSetupViewController.m */; };
+		4C9A816D1BD088B200F85F0B /* TeamRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A816C1BD088B200F85F0B /* TeamRosterViewController.m */; };
+		4C9A81701BD088DB00F85F0B /* LineupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A816F1BD088DB00F85F0B /* LineupViewController.m */; };
+		4C9A81791BD08A8600F85F0B /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A81781BD08A8600F85F0B /* InfoViewController.m */; };
+		4C9A817C1BD08BB500F85F0B /* HittingChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A817B1BD08BB500F85F0B /* HittingChartViewController.m */; };
+		4C9A817F1BD09C6A00F85F0B /* OpponentTeamRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A817E1BD09C6A00F85F0B /* OpponentTeamRosterViewController.m */; };
+		4C9A81851BD09DC600F85F0B /* OpponentLineupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A81841BD09DC600F85F0B /* OpponentLineupViewController.m */; };
+		4CA77D431BE876080089A2E2 /* TeamRosterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA77D421BE876080089A2E2 /* TeamRosterTableViewCell.m */; };
+		4CC6F0031BD9CF6C004F9DE7 /* AddNewPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6F0021BD9CF6C004F9DE7 /* AddNewPlayerViewController.m */; };
+		4CE641391BE5CB760056EB9E /* AddNewOpponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE641381BE5CB760056EB9E /* AddNewOpponentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6E3B2B1BCB41640017DF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6E3B091BCB41630017DF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6E3B101BCB41630017DF76;
+			remoteInfo = BBScorePlus;
+		};
+		4C6E3B361BCB41640017DF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6E3B091BCB41630017DF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6E3B101BCB41630017DF76;
+			remoteInfo = BBScorePlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0D652D1BE98C9700A9397C /* LineUpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineUpTableViewCell.h; path = ../LineUpTableViewCell.h; sourceTree = "<group>"; };
+		4C0D652E1BE98C9700A9397C /* LineUpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineUpTableViewCell.m; path = ../LineUpTableViewCell.m; sourceTree = "<group>"; };
+		4C3254581BF8EDEF00C3938D /* GameStatsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatsTableViewCell.h; sourceTree = "<group>"; };
+		4C3254591BF8EDEF00C3938D /* GameStatsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStatsTableViewCell.m; sourceTree = "<group>"; };
+		4C32545A1BF8EDEF00C3938D /* GameStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatsViewController.h; sourceTree = "<group>"; };
+		4C32545B1BF8EDEF00C3938D /* GameStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStatsViewController.m; sourceTree = "<group>"; };
+		4C32545E1BF8EDFD00C3938D /* RulesSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesSetupViewController.h; sourceTree = "<group>"; };
+		4C32545F1BF8EDFD00C3938D /* RulesSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesSetupViewController.m; sourceTree = "<group>"; };
+		4C3254611BF90DDA00C3938D /* PitchChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitchChartViewController.h; sourceTree = "<group>"; };
+		4C3254621BF90DDA00C3938D /* PitchChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitchChartViewController.m; sourceTree = "<group>"; };
+		4C6E3B111BCB41630017DF76 /* BBScorePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBScorePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6E3B151BCB41640017DF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6E3B171BCB41640017DF76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6E3B181BCB41640017DF76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C6E3B1A1BCB41640017DF76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C6E3B1B1BCB41640017DF76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C6E3B1E1BCB41640017DF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6E3B201BCB41640017DF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6E3B231BCB41640017DF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6E3B251BCB41640017DF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6E3B2A1BCB41640017DF76 /* BBScorePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBScorePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6E3B2E1BCB41640017DF76 /* BBScorePlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBScorePlusTests.m; sourceTree = "<group>"; };
+		4C6E3B301BCB41640017DF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6E3B351BCB41640017DF76 /* BBScorePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBScorePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6E3B391BCB41640017DF76 /* BBScorePlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBScorePlusUITests.m; sourceTree = "<group>"; };
+		4C6E3B3B1BCB41640017DF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6E3B471BCB43200017DF76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C8AF09F1BEAD63300C77997 /* OpponentRosterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponentRosterTableViewCell.h; sourceTree = "<group>"; };
+		4C8AF0A01BEAD63300C77997 /* OpponentRosterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponentRosterTableViewCell.m; sourceTree = "<group>"; };
+		4C8AF0A21BEAD65500C77997 /* OpponentLineupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpponentLineupTableViewCell.h; path = ../OpponentLineupTableViewCell.h; sourceTree = "<group>"; };
+		4C8AF0A31BEAD65500C77997 /* OpponentLineupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpponentLineupTableViewCell.m; path = ../OpponentLineupTableViewCell.m; sourceTree = "<group>"; };
+		4C9A81651BD087B200F85F0B /* GameSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSetupViewController.h; sourceTree = "<group>"; };
+		4C9A81661BD087B200F85F0B /* GameSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSetupViewController.m; sourceTree = "<group>"; };
+		4C9A816B1BD088B200F85F0B /* TeamRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamRosterViewController.h; sourceTree = "<group>"; };
+		4C9A816C1BD088B200F85F0B /* TeamRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamRosterViewController.m; sourceTree = "<group>"; };
+		4C9A816E1BD088DB00F85F0B /* LineupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineupViewController.h; sourceTree = "<group>"; };
+		4C9A816F1BD088DB00F85F0B /* LineupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineupViewController.m; sourceTree = "<group>"; };
+		4C9A81771BD08A8600F85F0B /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		4C9A81781BD08A8600F85F0B /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		4C9A817A1BD08BB500F85F0B /* HittingChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HittingChartViewController.h; sourceTree = "<group>"; };
+		4C9A817B1BD08BB500F85F0B /* HittingChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HittingChartViewController.m; sourceTree = "<group>"; };
+		4C9A817D1BD09C6A00F85F0B /* OpponentTeamRosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponentTeamRosterViewController.h; sourceTree = "<group>"; };
+		4C9A817E1BD09C6A00F85F0B /* OpponentTeamRosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponentTeamRosterViewController.m; sourceTree = "<group>"; };
+		4C9A81831BD09DC600F85F0B /* OpponentLineupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpponentLineupViewController.h; path = ../OpponentLineupViewController.h; sourceTree = "<group>"; };
+		4C9A81841BD09DC600F85F0B /* OpponentLineupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpponentLineupViewController.m; path = ../OpponentLineupViewController.m; sourceTree = "<group>"; };
+		4CA77D411BE876080089A2E2 /* TeamRosterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamRosterTableViewCell.h; sourceTree = "<group>"; };
+		4CA77D421BE876080089A2E2 /* TeamRosterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamRosterTableViewCell.m; sourceTree = "<group>"; };
+		4CC6F0011BD9CF6C004F9DE7 /* AddNewPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPlayerViewController.h; sourceTree = "<group>"; };
+		4CC6F0021BD9CF6C004F9DE7 /* AddNewPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPlayerViewController.m; sourceTree = "<group>"; };
+		4CE641371BE5CB760056EB9E /* AddNewOpponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewOpponentViewController.h; sourceTree = "<group>"; };
+		4CE641381BE5CB760056EB9E /* AddNewOpponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewOpponentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6E3B0E1BCB41630017DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E3B481BCB43200017DF76 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6E3B271BCB41640017DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6E3B321BCB41640017DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6E3B081BCB41630017DF76 = {
+			isa = PBXGroup;
+			children = (
+				4C6E3B471BCB43200017DF76 /* MapKit.framework */,
+				4C6E3B131BCB41630017DF76 /* BBScorePlus */,
+				4C6E3B2D1BCB41640017DF76 /* BBScorePlusTests */,
+				4C6E3B381BCB41640017DF76 /* BBScorePlusUITests */,
+				4C6E3B121BCB41630017DF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6E3B121BCB41630017DF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E3B111BCB41630017DF76 /* BBScorePlus.app */,
+				4C6E3B2A1BCB41640017DF76 /* BBScorePlusTests.xctest */,
+				4C6E3B351BCB41640017DF76 /* BBScorePlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6E3B131BCB41630017DF76 /* BBScorePlus */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E3B1D1BCB41640017DF76 /* Main.storyboard */,
+				4C6E3B171BCB41640017DF76 /* AppDelegate.h */,
+				4C6E3B181BCB41640017DF76 /* AppDelegate.m */,
+				4C32545E1BF8EDFD00C3938D /* RulesSetupViewController.h */,
+				4C32545F1BF8EDFD00C3938D /* RulesSetupViewController.m */,
+				4C3254581BF8EDEF00C3938D /* GameStatsTableViewCell.h */,
+				4C3254591BF8EDEF00C3938D /* GameStatsTableViewCell.m */,
+				4C32545A1BF8EDEF00C3938D /* GameStatsViewController.h */,
+				4C32545B1BF8EDEF00C3938D /* GameStatsViewController.m */,
+				4C6E3B1A1BCB41640017DF76 /* ViewController.h */,
+				4C6E3B1B1BCB41640017DF76 /* ViewController.m */,
+				4C9A81771BD08A8600F85F0B /* InfoViewController.h */,
+				4C9A81781BD08A8600F85F0B /* InfoViewController.m */,
+				4C70832F1BD45A7A0080BDB0 /* Opponent */,
+				4C7083301BD45A970080BDB0 /* Charts */,
+				4C7083311BD45AA70080BDB0 /* Team */,
+				4C9A81651BD087B200F85F0B /* GameSetupViewController.h */,
+				4C9A81661BD087B200F85F0B /* GameSetupViewController.m */,
+				4C6E3B201BCB41640017DF76 /* Assets.xcassets */,
+				4C6E3B221BCB41640017DF76 /* LaunchScreen.storyboard */,
+				4C6E3B251BCB41640017DF76 /* Info.plist */,
+				4C6E3B141BCB41640017DF76 /* Supporting Files */,
+			);
+			path = BBScorePlus;
+			sourceTree = "<group>";
+		};
+		4C6E3B141BCB41640017DF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E3B151BCB41640017DF76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6E3B2D1BCB41640017DF76 /* BBScorePlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E3B2E1BCB41640017DF76 /* BBScorePlusTests.m */,
+				4C6E3B301BCB41640017DF76 /* Info.plist */,
+			);
+			path = BBScorePlusTests;
+			sourceTree = "<group>";
+		};
+		4C6E3B381BCB41640017DF76 /* BBScorePlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E3B391BCB41640017DF76 /* BBScorePlusUITests.m */,
+				4C6E3B3B1BCB41640017DF76 /* Info.plist */,
+			);
+			path = BBScorePlusUITests;
+			sourceTree = "<group>";
+		};
+		4C70832F1BD45A7A0080BDB0 /* Opponent */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A817D1BD09C6A00F85F0B /* OpponentTeamRosterViewController.h */,
+				4C9A817E1BD09C6A00F85F0B /* OpponentTeamRosterViewController.m */,
+				4C8AF09F1BEAD63300C77997 /* OpponentRosterTableViewCell.h */,
+				4C8AF0A01BEAD63300C77997 /* OpponentRosterTableViewCell.m */,
+				4C9A81831BD09DC600F85F0B /* OpponentLineupViewController.h */,
+				4C9A81841BD09DC600F85F0B /* OpponentLineupViewController.m */,
+				4C8AF0A21BEAD65500C77997 /* OpponentLineupTableViewCell.h */,
+				4C8AF0A31BEAD65500C77997 /* OpponentLineupTableViewCell.m */,
+				4CE641371BE5CB760056EB9E /* AddNewOpponentViewController.h */,
+				4CE641381BE5CB760056EB9E /* AddNewOpponentViewController.m */,
+			);
+			name = Opponent;
+			sourceTree = "<group>";
+		};
+		4C7083301BD45A970080BDB0 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				4C3254611BF90DDA00C3938D /* PitchChartViewController.h */,
+				4C3254621BF90DDA00C3938D /* PitchChartViewController.m */,
+				4C9A817A1BD08BB500F85F0B /* HittingChartViewController.h */,
+				4C9A817B1BD08BB500F85F0B /* HittingChartViewController.m */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		4C7083311BD45AA70080BDB0 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A816E1BD088DB00F85F0B /* LineupViewController.h */,
+				4C9A816F1BD088DB00F85F0B /* LineupViewController.m */,
+				4C0D652D1BE98C9700A9397C /* LineUpTableViewCell.h */,
+				4C0D652E1BE98C9700A9397C /* LineUpTableViewCell.m */,
+				4C9A816B1BD088B200F85F0B /* TeamRosterViewController.h */,
+				4C9A816C1BD088B200F85F0B /* TeamRosterViewController.m */,
+				4CA77D411BE876080089A2E2 /* TeamRosterTableViewCell.h */,
+				4CA77D421BE876080089A2E2 /* TeamRosterTableViewCell.m */,
+				4CC6F0011BD9CF6C004F9DE7 /* AddNewPlayerViewController.h */,
+				4CC6F0021BD9CF6C004F9DE7 /* AddNewPlayerViewController.m */,
+			);
+			name = Team;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6E3B101BCB41630017DF76 /* BBScorePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6E3B3E1BCB41640017DF76 /* Build configuration list for PBXNativeTarget "BBScorePlus" */;
+			buildPhases = (
+				4C6E3B0D1BCB41630017DF76 /* Sources */,
+				4C6E3B0E1BCB41630017DF76 /* Frameworks */,
+				4C6E3B0F1BCB41630017DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBScorePlus;
+			productName = BBScorePlus;
+			productReference = 4C6E3B111BCB41630017DF76 /* BBScorePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6E3B291BCB41640017DF76 /* BBScorePlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6E3B411BCB41640017DF76 /* Build configuration list for PBXNativeTarget "BBScorePlusTests" */;
+			buildPhases = (
+				4C6E3B261BCB41640017DF76 /* Sources */,
+				4C6E3B271BCB41640017DF76 /* Frameworks */,
+				4C6E3B281BCB41640017DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6E3B2C1BCB41640017DF76 /* PBXTargetDependency */,
+			);
+			name = BBScorePlusTests;
+			productName = BBScorePlusTests;
+			productReference = 4C6E3B2A1BCB41640017DF76 /* BBScorePlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C6E3B341BCB41640017DF76 /* BBScorePlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6E3B441BCB41640017DF76 /* Build configuration list for PBXNativeTarget "BBScorePlusUITests" */;
+			buildPhases = (
+				4C6E3B311BCB41640017DF76 /* Sources */,
+				4C6E3B321BCB41640017DF76 /* Frameworks */,
+				4C6E3B331BCB41640017DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6E3B371BCB41640017DF76 /* PBXTargetDependency */,
+			);
+			name = BBScorePlusUITests;
+			productName = BBScorePlusUITests;
+			productReference = 4C6E3B351BCB41640017DF76 /* BBScorePlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6E3B091BCB41630017DF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Michael Usry";
+				TargetAttributes = {
+					4C6E3B101BCB41630017DF76 = {
+						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4C6E3B291BCB41640017DF76 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4C6E3B101BCB41630017DF76;
+					};
+					4C6E3B341BCB41640017DF76 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4C6E3B101BCB41630017DF76;
+					};
+				};
+			};
+			buildConfigurationList = 4C6E3B0C1BCB41630017DF76 /* Build configuration list for PBXProject "BBScorePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6E3B081BCB41630017DF76;
+			productRefGroup = 4C6E3B121BCB41630017DF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6E3B101BCB41630017DF76 /* BBScorePlus */,
+				4C6E3B291BCB41640017DF76 /* BBScorePlusTests */,
+				4C6E3B341BCB41640017DF76 /* BBScorePlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6E3B0F1BCB41630017DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E3B241BCB41640017DF76 /* LaunchScreen.storyboard in Resources */,
+				4C6E3B211BCB41640017DF76 /* Assets.xcassets in Resources */,
+				4C6E3B1F1BCB41640017DF76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6E3B281BCB41640017DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6E3B331BCB41640017DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6E3B0D1BCB41630017DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8AF0A41BEAD65500C77997 /* OpponentLineupTableViewCell.m in Sources */,
+				4C32545D1BF8EDEF00C3938D /* GameStatsViewController.m in Sources */,
+				4C9A81701BD088DB00F85F0B /* LineupViewController.m in Sources */,
+				4C9A816D1BD088B200F85F0B /* TeamRosterViewController.m in Sources */,
+				4C3254601BF8EDFD00C3938D /* RulesSetupViewController.m in Sources */,
+				4C9A81791BD08A8600F85F0B /* InfoViewController.m in Sources */,
+				4C9A817F1BD09C6A00F85F0B /* OpponentTeamRosterViewController.m in Sources */,
+				4CC6F0031BD9CF6C004F9DE7 /* AddNewPlayerViewController.m in Sources */,
+				4C32545C1BF8EDEF00C3938D /* GameStatsTableViewCell.m in Sources */,
+				4C9A817C1BD08BB500F85F0B /* HittingChartViewController.m in Sources */,
+				4CE641391BE5CB760056EB9E /* AddNewOpponentViewController.m in Sources */,
+				4C6E3B1C1BCB41640017DF76 /* ViewController.m in Sources */,
+				4C6E3B191BCB41640017DF76 /* AppDelegate.m in Sources */,
+				4C9A81851BD09DC600F85F0B /* OpponentLineupViewController.m in Sources */,
+				4C3254631BF90DDA00C3938D /* PitchChartViewController.m in Sources */,
+				4C9A81671BD087B200F85F0B /* GameSetupViewController.m in Sources */,
+				4CA77D431BE876080089A2E2 /* TeamRosterTableViewCell.m in Sources */,
+				4C6E3B161BCB41640017DF76 /* main.m in Sources */,
+				4C0D652F1BE98C9800A9397C /* LineUpTableViewCell.m in Sources */,
+				4C8AF0A11BEAD63300C77997 /* OpponentRosterTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6E3B261BCB41640017DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E3B2F1BCB41640017DF76 /* BBScorePlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6E3B311BCB41640017DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E3B3A1BCB41640017DF76 /* BBScorePlusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6E3B2C1BCB41640017DF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6E3B101BCB41630017DF76 /* BBScorePlus */;
+			targetProxy = 4C6E3B2B1BCB41640017DF76 /* PBXContainerItemProxy */;
+		};
+		4C6E3B371BCB41640017DF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6E3B101BCB41630017DF76 /* BBScorePlus */;
+			targetProxy = 4C6E3B361BCB41640017DF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6E3B1D1BCB41640017DF76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6E3B1E1BCB41640017DF76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6E3B221BCB41640017DF76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6E3B231BCB41640017DF76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6E3B3C1BCB41640017DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6E3B3D1BCB41640017DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6E3B3F1BCB41640017DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BBScorePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbudesigns.BBScorePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C6E3B401BCB41640017DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BBScorePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbudesigns.BBScorePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C6E3B421BCB41640017DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBScorePlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbudesigns.BBScorePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBScorePlus.app/BBScorePlus";
+			};
+			name = Debug;
+		};
+		4C6E3B431BCB41640017DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBScorePlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbudesigns.BBScorePlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBScorePlus.app/BBScorePlus";
+			};
+			name = Release;
+		};
+		4C6E3B451BCB41640017DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBScorePlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbudesigns.BBScorePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBScorePlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4C6E3B461BCB41640017DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBScorePlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbudesigns.BBScorePlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBScorePlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6E3B0C1BCB41630017DF76 /* Build configuration list for PBXProject "BBScorePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E3B3C1BCB41640017DF76 /* Debug */,
+				4C6E3B3D1BCB41640017DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6E3B3E1BCB41640017DF76 /* Build configuration list for PBXNativeTarget "BBScorePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E3B3F1BCB41640017DF76 /* Debug */,
+				4C6E3B401BCB41640017DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6E3B411BCB41640017DF76 /* Build configuration list for PBXNativeTarget "BBScorePlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E3B421BCB41640017DF76 /* Debug */,
+				4C6E3B431BCB41640017DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6E3B441BCB41640017DF76 /* Build configuration list for PBXNativeTarget "BBScorePlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E3B451BCB41640017DF76 /* Debug */,
+				4C6E3B461BCB41640017DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6E3B091BCB41630017DF76 /* Project object */;
+}
